@@ -1,0 +1,13 @@
+model_list:
+  - model_name: qwen2.5-coder-1.5b
+    litellm_params:
+      model: ollama/qwen2.5-coder:1.5b
+      api_base: http://host.docker.internal:11434
+
+general_settings:
+  master_key: os.environ/LITELLM_MASTER_KEY
+  database_url: os.environ/LITELLM_DATABASE_URL
+
+litellm_settings:
+  drop_params: true
+  set_verbose: false

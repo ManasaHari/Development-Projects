@@ -1,0 +1,27 @@
+# Dependencies and build output
+**/node_modules/
+**/.next/
+**/out/
+**/build/
+**/coverage/
+
+# Local environment and credentials
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Editor and OS files
+.DS_Store
+.continue/
+.vscode/
+*.pem
+*.key
+~$*.docx
+
+# Logs and caches
+*.log
+*.tsbuildinfo
+.vercel/

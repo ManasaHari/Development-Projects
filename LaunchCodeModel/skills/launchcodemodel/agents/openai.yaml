@@ -1,0 +1,4 @@
+interface:
+  display_name: "LaunchCodeModel"
+  short_description: "Operate the local AI coding assistant"
+  default_prompt: "Use $launchcodemodel to inspect, run, modify, and verify the LaunchCodeModel project."

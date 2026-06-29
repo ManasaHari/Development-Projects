@@ -1,0 +1,11 @@
+{
+  "models": [
+    {
+      "title": "LaunchCodeModel Local",
+      "provider": "openai",
+      "model": "qwen2.5-coder-1.5b",
+      "apiBase": "http://localhost:4000/v1",
+      "apiKey": "<your-local-api-key>"
+    }
+  ]
+}
