@@ -647,7 +647,7 @@ export default function Home() {
         </section>
         ) : null}
         {activeView === "docs" ? (
-        <section className="my-5 rounded-lg border border-[#d8d8d0] bg-white p-5">
+        <section className="my-5 flex flex-col rounded-lg border border-[#d8d8d0] bg-white p-5">
           <div className="flex flex-col gap-2 border-b border-[#e4e4dd] pb-4 md:flex-row md:items-end md:justify-between">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.12em] text-[#5f6f52]">
@@ -663,7 +663,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="mt-5 rounded-lg border border-[#e4e4dd] bg-[#fafaf7] p-4">
+          <div className="order-2 mt-5 rounded-lg border border-[#e4e4dd] bg-[#fafaf7] p-4">
             <div className="flex flex-col gap-2 md:flex-row md:items-start md:justify-between">
               <div>
                 <h3 className="text-sm font-semibold text-[#1f2933]">Competitive Study</h3>
@@ -829,7 +829,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+          <div className="order-1 mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
             <DocCard title="1. Check Runtime Health">
               <p>
                 Use the top-right status boxes before sending prompts. Healthy means the app can
